@@ -1,0 +1,36 @@
+name: Build and Deploy to Azure
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Docker Login to ACR
+        run: |
+          docker login acr691.azurecr.io \
+            -u ${{ secrets.REGISTRY_USERNAME }} \
+            -p ${{ secrets.REGISTRY_PASSWORD }}
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build . -t acr691.azurecr.io/week12:${{ github.sha }}
+          docker push acr691.azurecr.io/week12:${{ github.sha }}
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: app691
+          images: acr691.azurecr.io/week12:${{ github.sha }}
