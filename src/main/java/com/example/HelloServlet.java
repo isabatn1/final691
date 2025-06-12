@@ -21,10 +21,10 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
 
         // Environment variable'lardan değerleri al
-        String user = System.getenv("PGUSER");
-        String pass = System.getenv("PGPASS");
+        String user = System.getenv("PGUSERNAME");
+        String pass = System.getenv("PGPASSWORD");
         String host = System.getenv("PGHOST");
-        String db   = System.getenv("PGDB");
+        String db   = System.getenv("PGDBNAME");
 
         String url = "jdbc:postgresql://" + host + ":5432/" + db;
 
