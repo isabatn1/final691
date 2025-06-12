@@ -9,10 +9,14 @@ RUN mvn clean package
 # Run aşaması
 FROM tomcat:10-jre8-openjdk-buster
 
+# 🔥 PostgreSQL JDBC Driver'ı manuel ekle
+COPY lib/postgresql-42.6.0.jar /usr/local/tomcat/lib/
+
 # SSH kurulumu
 RUN apt-get update && \
     apt-get install -y openssh-server && \
     mkdir /var/run/sshd
+
 
 # init.sh kopyalanır
 COPY init.sh /init.sh
