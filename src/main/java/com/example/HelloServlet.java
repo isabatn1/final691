@@ -5,7 +5,7 @@ import java.sql.*;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 
-public class DbTestServlet extends HttpServlet {
+public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
