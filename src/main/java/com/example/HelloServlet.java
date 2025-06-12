@@ -14,6 +14,7 @@ public class HelloServlet extends HttpServlet {
         resp.setContentType("text/plain");
 
         String secret = System.getenv("POSTGRES_CONN"); // Vault’tan gelen değer
+        System.out.println("Vault secret: " + secret);
 
         // Secret'ı parçala
         String[] parts = secret.split(";");
