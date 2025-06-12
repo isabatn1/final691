@@ -1,38 +1,60 @@
 package com.example;
 
 import java.io.IOException;
-import java.sql.*;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class HelloServlet extends HttpServlet {
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
         throws ServletException, IOException {
 
         resp.setContentType("text/plain");
+        PrintWriter out = resp.getWriter();
 
-        // Environment değişkenlerini oku
+        // Environment variable'lardan değerleri al
+        String user = System.getenv("PGUSER");
+        String pass = System.getenv("PGPASS");
         String host = System.getenv("PGHOST");
-        String dbname = System.getenv("PGDBNAME");
-        String username = System.getenv("PGUSERNAME");
-        String password = System.getenv("PGPASSWORD");
+        String db   = System.getenv("PGDB");
 
-        if (host == null || dbname == null || username == null || password == null) {
-            resp.getWriter().println("❌ Bazı environment değişkenleri eksik veya çözülemedi.");
-            return;
-        }
+        String url = "jdbc:postgresql://" + host + ":5432/" + db;
 
-        // JDBC bağlantı URL'si
-        String jdbcUrl = "jdbc:postgresql://" + host + ":5432/" + dbname;
+        try {
+            // PostgreSQL sürücüsünü yükle (Tomcat'e eklenmiş olmalı)
+            Class.forName("org.postgresql.Driver");
 
-        resp.getWriter().println("🔗 JDBC URL: " + jdbcUrl);
+            // Bağlantıyı kur
+            Connection conn = DriverManager.getConnection(url, user, pass);
 
-        try (Connection conn = DriverManager.getConnection(jdbcUrl, username, password)) {
-            resp.getWriter().println("✅ Veritabanına başarıyla bağlanıldı!");
-        } catch (SQLException e) {
-            resp.getWriter().println("❌ Bağlantı hatası: " + e.getMessage());
+            // Sorgu gönder
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM todo");
+
+            // Sonuçları yazdır
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String desc = rs.getString("description");
+                String details = rs.getString("details");
+                boolean done = rs.getBoolean("done");
+
+                out.println("[" + id + "] " + desc + " - " + details + " (done: " + done + ")");
+            }
+
+            rs.close();
+            stmt.close();
+            conn.close();
+        } catch (Exception e) {
+            out.println("Error connecting to PostgreSQL: " + e.getMessage());
+            e.printStackTrace(out);
         }
     }
 }

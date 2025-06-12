@@ -1,33 +1,19 @@
-# Build aşaması
-FROM maven:3.9.6-eclipse-temurin-17 AS build
-
+FROM maven:3.9.6-amazoncorretto-8-debian-bookworm AS build
 WORKDIR /build
 COPY pom.xml .
 COPY src ./src
 RUN mvn clean package
 
-# Run aşaması
 FROM tomcat:10-jre8-openjdk-buster
+RUN apt-get update && apt-get install -y openssh-server && mkdir /var/run/sshd
 
-# 🔥 PostgreSQL JDBC Driver'ı manuel ekle
-COPY lib/postgresql-42.6.0.jar /usr/local/tomcat/lib/
-
-# SSH kurulumu
-RUN apt-get update && \
-    apt-get install -y openssh-server && \
-    mkdir /var/run/sshd
-
-
-# init.sh kopyalanır
-COPY init.sh /init.sh
-RUN chmod +x /init.sh
-
-# WAR ve klasör kopyalanır
+# WAR ve ROOT klasörünü Tomcat'e kopyala
 COPY --from=build /build/target/ROOT.war /usr/local/tomcat/webapps/ROOT.war
 COPY --from=build /build/target/ROOT /usr/local/tomcat/webapps/ROOT
 
-# Portlar
-EXPOSE 8080 22
+# SSH ayarları
+COPY init.sh /init.sh
+RUN chmod +x /init.sh
 
-# init.sh çalıştır
-CMD ["/init.sh"]
+EXPOSE 8080 22
+CMD ["/bin/bash", "/init.sh"]
