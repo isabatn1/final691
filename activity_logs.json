@@ -1,0 +1,3421 @@
+[
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "21070006018@stu.yasar.edu.tr",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "acrs": "p1",
+      "aio": "AaQAW/8ZAAAAsEjsHkl08euGfNwhGaGGqXQi6I6S/Yqxk4UOm7UcRP3mIt2otDA1gBmP3JERnfTuYk8WcloiD9yIyxZptgZDlBsbB/wxHexQbXgxgrxy45B1g4prX9tqezaFE4p2hF+QGfBQk/8nBdlyO1OBbSJS6NIcMjaE+dyzjM6704cRkkdeHcPxGDlSrbpN3I6jD/ufySMYVZBoHLM7Z5Nk7RWeUA==",
+      "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+      "appidacr": "0",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749758705",
+      "groups": "1f7393a5-89e1-49f2-ad70-426c9bbc4b8d",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "a5f190b6-a691-49bd-b6f1-03a04597a8c0",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "İSA BATIN",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "21070006018@stu.yasar.edu.tr",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "4gtgY71ie5SoIpxEEBJp1vMJMVkH2xJTSz-WVVJ_rWI",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "EREN",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "21070006018@stu.yasar.edu.tr",
+      "iat": "1749753457",
+      "idtyp": "user",
+      "ipaddr": "95.70.167.56",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "name": "İSA BATIN EREN",
+      "nbf": "1749753457",
+      "onprem_sid": "S-1-5-21-366150783-2532539643-2946038280-90212",
+      "puid": "1003200179EEA2E2",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AIM9AA.",
+      "sid": "00510e19-3cfe-d747-331d-46a6e1a485c4",
+      "uti": "go79iCWNdEG2316w0VEUAA",
+      "ver": "1.0",
+      "xms_ftd": "0G9VeVaM0urlKOnext_3n8DK5h2fEvOh9jHh8Lm-UrMBa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "12 1",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "dc35eb69-c4e8-4459-9d75-680eb3327088",
+    "description": "",
+    "eventDataId": "aaa021fb-62aa-4168-b42e-d8f2e18dd40b",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T19:57:13.6141078Z",
+    "httpRequest": {
+      "clientIpAddress": "95.70.167.56",
+      "clientRequestId": "11adfc3f-eac5-4d63-a05e-10891859344b",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2022-03-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/aaa021fb-62aa-4168-b42e-d8f2e18dd40b/ticks/638853550336141078",
+    "level": "Informational",
+    "operationId": "dc35eb69-c4e8-4459-9d75-680eb3327088",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T19:59:11Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "21070006018@stu.yasar.edu.tr",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "acrs": "p1",
+      "aio": "AaQAW/8ZAAAAsEjsHkl08euGfNwhGaGGqXQi6I6S/Yqxk4UOm7UcRP3mIt2otDA1gBmP3JERnfTuYk8WcloiD9yIyxZptgZDlBsbB/wxHexQbXgxgrxy45B1g4prX9tqezaFE4p2hF+QGfBQk/8nBdlyO1OBbSJS6NIcMjaE+dyzjM6704cRkkdeHcPxGDlSrbpN3I6jD/ufySMYVZBoHLM7Z5Nk7RWeUA==",
+      "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+      "appidacr": "0",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749758705",
+      "groups": "1f7393a5-89e1-49f2-ad70-426c9bbc4b8d",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "a5f190b6-a691-49bd-b6f1-03a04597a8c0",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "İSA BATIN",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "21070006018@stu.yasar.edu.tr",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "4gtgY71ie5SoIpxEEBJp1vMJMVkH2xJTSz-WVVJ_rWI",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "EREN",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "21070006018@stu.yasar.edu.tr",
+      "iat": "1749753457",
+      "idtyp": "user",
+      "ipaddr": "95.70.167.56",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "name": "İSA BATIN EREN",
+      "nbf": "1749753457",
+      "onprem_sid": "S-1-5-21-366150783-2532539643-2946038280-90212",
+      "puid": "1003200179EEA2E2",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AIM9AA.",
+      "sid": "00510e19-3cfe-d747-331d-46a6e1a485c4",
+      "uti": "go79iCWNdEG2316w0VEUAA",
+      "ver": "1.0",
+      "xms_ftd": "0G9VeVaM0urlKOnext_3n8DK5h2fEvOh9jHh8Lm-UrMBa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "12 1",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "dc35eb69-c4e8-4459-9d75-680eb3327088",
+    "description": "",
+    "eventDataId": "cb8fb4c2-ffbd-4f9b-8581-0c03286fc557",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T19:57:13.4734831Z",
+    "httpRequest": {
+      "clientIpAddress": "95.70.167.56",
+      "clientRequestId": "11adfc3f-eac5-4d63-a05e-10891859344b",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2022-03-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/cb8fb4c2-ffbd-4f9b-8581-0c03286fc557/ticks/638853550334734831",
+    "level": "Informational",
+    "operationId": "dc35eb69-c4e8-4459-9d75-680eb3327088",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T19:59:11Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "4419bb2c-9cfe-4ad9-9810-7388046608f9",
+    "description": "",
+    "eventDataId": "82786078-920e-4392-a87a-0e136c3cecf3",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:14.1145876Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/82786078-920e-4392-a87a-0e136c3cecf3/ticks/638853499941145876",
+    "level": "Informational",
+    "operationId": "4419bb2c-9cfe-4ad9-9810-7388046608f9",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:35:34Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "612b12a6-9d5c-4bb2-9496-f2e31b221772",
+    "description": "WebSite app691 has an operation Restart and the status is Succeeded",
+    "eventDataId": "fcdfe1cd-75e4-a5b0-fde2-8a1041f88f34",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:33:14Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/fcdfe1cd-75e4-a5b0-fde2-8a1041f88f34/ticks/638853499940000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:33:14Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "4419bb2c-9cfe-4ad9-9810-7388046608f9",
+    "description": "",
+    "eventDataId": "240a82e6-95a2-4fb1-98e0-3dbab85dcfc3",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:13.5989179Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/240a82e6-95a2-4fb1-98e0-3dbab85dcfc3/ticks/638853499935989179",
+    "level": "Informational",
+    "operationId": "4419bb2c-9cfe-4ad9-9810-7388046608f9",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:35:34Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "2ddbb1a9-dbda-48d2-99aa-66fcfd9374ac",
+    "description": "",
+    "eventDataId": "584119c1-3c88-49fb-af74-b0ff23a9182f",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:13.2440097Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/584119c1-3c88-49fb-af74-b0ff23a9182f/ticks/638853499932440097",
+    "level": "Informational",
+    "operationId": "2ddbb1a9-dbda-48d2-99aa-66fcfd9374ac",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:35:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "612b12a6-9d5c-4bb2-9496-f2e31b221772",
+    "description": "WebSite app691 has an operation Restart and the status is Started",
+    "eventDataId": "32790b11-2238-e518-4023-a62041bffa72",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:33:13Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/32790b11-2238-e518-4023-a62041bffa72/ticks/638853499930000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:33:13Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "58a9ab20-542d-495f-a09c-da586eede26f",
+    "description": "WebSite app691 has an operation Update and the status is Succeeded",
+    "eventDataId": "9557f448-43ef-81d1-ce8c-d847efc8d5cf",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:33:12Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/9557f448-43ef-81d1-ce8c-d847efc8d5cf/ticks/638853499920000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:33:12Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "58a9ab20-542d-495f-a09c-da586eede26f",
+    "description": "WebSite app691 has an operation Update and the status is Started",
+    "eventDataId": "2a072fa0-0bbe-d7ce-09be-f4b36ed71d4d",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:33:11Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/2a072fa0-0bbe-d7ce-09be-f4b36ed71d4d/ticks/638853499910000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:33:11Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "2ddbb1a9-dbda-48d2-99aa-66fcfd9374ac",
+    "description": "",
+    "eventDataId": "e32a471c-1bc5-4e61-8c80-b9241c9218c1",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:10.8221182Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/e32a471c-1bc5-4e61-8c80-b9241c9218c1/ticks/638853499908221182",
+    "level": "Informational",
+    "operationId": "2ddbb1a9-dbda-48d2-99aa-66fcfd9374ac",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:35:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d0f4c50d-656c-4421-96b2-83ebe8ae79cf",
+    "description": "",
+    "eventDataId": "311476f3-d7e9-4389-a0dc-7f3f0a2f3ce2",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:10.5273597Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/311476f3-d7e9-4389-a0dc-7f3f0a2f3ce2/ticks/638853499905273597",
+    "level": "Informational",
+    "operationId": "d0f4c50d-656c-4421-96b2-83ebe8ae79cf",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:34:48Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYHh8ZIf6joDDWtsmLJd++3ijHAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749756745",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749752845",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749752845",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "_lCbaMJEgU-FstnmC-4XAA",
+      "ver": "1.0",
+      "xms_ftd": "Z_zAXS0rBalhc_WRemNykD2xl5FXGhL7OTinOdwzmJABa29yZWFzb3V0aC1kc21z",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d0f4c50d-656c-4421-96b2-83ebe8ae79cf",
+    "description": "",
+    "eventDataId": "c6c45c39-ce0f-4b7d-99a2-58c08a4ce149",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:33:10.1679872Z",
+    "httpRequest": {
+      "clientIpAddress": "4.246.206.81",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/c6c45c39-ce0f-4b7d-99a2-58c08a4ce149/ticks/638853499901679872",
+    "level": "Informational",
+    "operationId": "d0f4c50d-656c-4421-96b2-83ebe8ae79cf",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:34:48Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "073029cf-47ea-4ebf-87cb-8b64c6fb9ed6",
+    "description": "",
+    "eventDataId": "fd313ffd-bc1c-4374-81b2-2170277decdd",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:18.6326106Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/fd313ffd-bc1c-4374-81b2-2170277decdd/ticks/638853483786326106",
+    "level": "Informational",
+    "operationId": "073029cf-47ea-4ebf-87cb-8b64c6fb9ed6",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:08:22Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "073029cf-47ea-4ebf-87cb-8b64c6fb9ed6",
+    "description": "",
+    "eventDataId": "01bc2acc-ecb6-4cbf-ba49-06e7d4a1fbf2",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:18.0857052Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/01bc2acc-ecb6-4cbf-ba49-06e7d4a1fbf2/ticks/638853483780857052",
+    "level": "Informational",
+    "operationId": "073029cf-47ea-4ebf-87cb-8b64c6fb9ed6",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:08:22Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "e9393654-8b6b-4229-9432-c1900176453f",
+    "description": "WebSite app691 has an operation Restart and the status is Started",
+    "eventDataId": "f0de01e9-91bb-ba42-28b9-0a651fd587f2",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:06:18Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/f0de01e9-91bb-ba42-28b9-0a651fd587f2/ticks/638853483780000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:06:18Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "e9393654-8b6b-4229-9432-c1900176453f",
+    "description": "WebSite app691 has an operation Restart and the status is Succeeded",
+    "eventDataId": "885ca2fb-7ea5-88e5-4fa2-c29727db5f75",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:06:18Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/885ca2fb-7ea5-88e5-4fa2-c29727db5f75/ticks/638853483780000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:06:18Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d3a33c11-9d4d-4b5d-8feb-f483216f60b1",
+    "description": "",
+    "eventDataId": "ad517b93-a026-41e0-8e8a-8e880fb22b07",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:17.8370066Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/ad517b93-a026-41e0-8e8a-8e880fb22b07/ticks/638853483778370066",
+    "level": "Informational",
+    "operationId": "d3a33c11-9d4d-4b5d-8feb-f483216f60b1",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:08:03Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "03f418f1-0633-4d4f-89e3-5b90adbded38",
+    "description": "WebSite app691 has an operation Update and the status is Succeeded",
+    "eventDataId": "fb912dbc-2476-d930-e365-f018208d5467",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:06:17Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/fb912dbc-2476-d930-e365-f018208d5467/ticks/638853483770000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:06:17Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "03f418f1-0633-4d4f-89e3-5b90adbded38",
+    "description": "WebSite app691 has an operation Update and the status is Started",
+    "eventDataId": "0a224a5d-b359-6238-28f2-b30d29036dd9",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T18:06:16Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/0a224a5d-b359-6238-28f2-b30d29036dd9/ticks/638853483760000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:06:16Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d3a33c11-9d4d-4b5d-8feb-f483216f60b1",
+    "description": "",
+    "eventDataId": "6ae1d292-06cf-42f7-8ffe-b418b16df8d8",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:15.4150333Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/6ae1d292-06cf-42f7-8ffe-b418b16df8d8/ticks/638853483754150333",
+    "level": "Informational",
+    "operationId": "d3a33c11-9d4d-4b5d-8feb-f483216f60b1",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:08:03Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "54cb7394-f4dd-4cd0-be57-b5e9e7f0af6b",
+    "description": "",
+    "eventDataId": "ea92cba2-232e-4901-b26b-c67a34a46d7e",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:14.883496Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/ea92cba2-232e-4901-b26b-c67a34a46d7e/ticks/638853483748834960",
+    "level": "Informational",
+    "operationId": "54cb7394-f4dd-4cd0-be57-b5e9e7f0af6b",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T18:07:36Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYOCUcvkhosUbol/fvO1oj4I3AA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749755142",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749751242",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749751242",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "bWbOZtWdE0ufJ_jz7qUAAA",
+      "ver": "1.0",
+      "xms_ftd": "h09JW7ABKUTjmBzqxtvCKS6WUhwlGLjvim605t7askIBa29yZWFjZW50cmFsLWRzbXM",
+      "xms_idrel": "7 4",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "54cb7394-f4dd-4cd0-be57-b5e9e7f0af6b",
+    "description": "",
+    "eventDataId": "d57fcc02-4676-4ba6-bef3-766994bde4f3",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T18:06:14.1178627Z",
+    "httpRequest": {
+      "clientIpAddress": "137.135.48.186",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/d57fcc02-4676-4ba6-bef3-766994bde4f3/ticks/638853483741178627",
+    "level": "Informational",
+    "operationId": "54cb7394-f4dd-4cd0-be57-b5e9e7f0af6b",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T18:07:36Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "6112bcfb-cca5-479d-aa82-6dcff9b4675d",
+    "description": "",
+    "eventDataId": "a188d6ca-a0b5-4332-97e2-d1b11a2c8145",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:29.6370914Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/a188d6ca-a0b5-4332-97e2-d1b11a2c8145/ticks/638853477296370914",
+    "level": "Informational",
+    "operationId": "6112bcfb-cca5-479d-aa82-6dcff9b4675d",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:57:05Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "6112bcfb-cca5-479d-aa82-6dcff9b4675d",
+    "description": "",
+    "eventDataId": "11c0f288-ee85-46d1-a6ab-ac8a05753e27",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:29.2308205Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/11c0f288-ee85-46d1-a6ab-ac8a05753e27/ticks/638853477292308205",
+    "level": "Informational",
+    "operationId": "6112bcfb-cca5-479d-aa82-6dcff9b4675d",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:57:05Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "84a935cb-4c17-459f-a0b2-e559103f0c27",
+    "description": "WebSite app691 has an operation Restart and the status is Succeeded",
+    "eventDataId": "d51e8e59-05ee-813b-c659-ea1ab89845b1",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:55:29Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/d51e8e59-05ee-813b-c659-ea1ab89845b1/ticks/638853477290000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:29Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "84a935cb-4c17-459f-a0b2-e559103f0c27",
+    "description": "WebSite app691 has an operation Restart and the status is Started",
+    "eventDataId": "a500fe9b-d030-9916-9a19-2d7e218edb97",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:55:29Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/a500fe9b-d030-9916-9a19-2d7e218edb97/ticks/638853477290000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:29Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "8719b451-c074-4005-8454-80d50322f34e",
+    "description": "",
+    "eventDataId": "62cfd780-0f07-4265-87ef-2a37e64f80a6",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:28.6117925Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/62cfd780-0f07-4265-87ef-2a37e64f80a6/ticks/638853477286117925",
+    "level": "Informational",
+    "operationId": "8719b451-c074-4005-8454-80d50322f34e",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:56:49Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "621f4840-2f78-43f9-9736-10216be32739",
+    "description": "WebSite app691 has an operation Update and the status is Succeeded",
+    "eventDataId": "8dfdd488-40c7-1af1-6af6-00ecbbaeaf01",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:55:28Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/8dfdd488-40c7-1af1-6af6-00ecbbaeaf01/ticks/638853477280000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:28Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "621f4840-2f78-43f9-9736-10216be32739",
+    "description": "WebSite app691 has an operation Update and the status is Started",
+    "eventDataId": "83be66c1-5c5a-0b90-9fcb-db6a39549179",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:55:27Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/83be66c1-5c5a-0b90-9fcb-db6a39549179/ticks/638853477270000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:27Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "8719b451-c074-4005-8454-80d50322f34e",
+    "description": "",
+    "eventDataId": "731651fe-6e35-420e-bc9c-dabe73431fe6",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:26.3305229Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/731651fe-6e35-420e-bc9c-dabe73431fe6/ticks/638853477263305229",
+    "level": "Informational",
+    "operationId": "8719b451-c074-4005-8454-80d50322f34e",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:56:49Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "1ead9348-28a3-4691-95b8-babc8d9a6ad1",
+    "description": "",
+    "eventDataId": "69d17d05-9d9b-47c5-a3c3-c0f1a62c4f77",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:25.6716193Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/69d17d05-9d9b-47c5-a3c3-c0f1a62c4f77/ticks/638853477256716193",
+    "level": "Informational",
+    "operationId": "1ead9348-28a3-4691-95b8-babc8d9a6ad1",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:57:04Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYJjHUGX0JNl2d/VV/9Ljp+ddAAA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754495",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750595",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750595",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "PKwnePSsFkeKmIJdYv_MAQ",
+      "ver": "1.0",
+      "xms_ftd": "ZSxngYxofR1GRhGbPjGvybZ2VI7T1Poz0xu6o6H9ZDsBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "30 7",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "1ead9348-28a3-4691-95b8-babc8d9a6ad1",
+    "description": "",
+    "eventDataId": "e01a2bb5-ecc3-4dee-b385-9450c7143301",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:55:24.9999122Z",
+    "httpRequest": {
+      "clientIpAddress": "172.183.133.160",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/e01a2bb5-ecc3-4dee-b385-9450c7143301/ticks/638853477249999122",
+    "level": "Informational",
+    "operationId": "1ead9348-28a3-4691-95b8-babc8d9a6ad1",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:57:04Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "0758f3d5-6a16-488f-b71e-d4de60b4f065",
+    "description": "",
+    "eventDataId": "df4097eb-43d0-47f6-81de-64c42a904717",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:15.6830839Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/df4097eb-43d0-47f6-81de-64c42a904717/ticks/638853475956830839",
+    "level": "Informational",
+    "operationId": "0758f3d5-6a16-488f-b71e-d4de60b4f065",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:55:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "7ab166ae-9adf-4305-b0be-5447137cf68a",
+    "description": "WebSite app691 has an operation Restart and the status is Succeeded",
+    "eventDataId": "e8217588-5301-044c-03d8-d230af18b2ce",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:53:15Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/e8217588-5301-044c-03d8-d230af18b2ce/ticks/638853475950000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:53:15Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "7ab166ae-9adf-4305-b0be-5447137cf68a",
+    "description": "WebSite app691 has an operation Restart and the status is Started",
+    "eventDataId": "8a118dda-932a-4aaa-39e6-a89d644e49fb",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:53:15Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/8a118dda-932a-4aaa-39e6-a89d644e49fb/ticks/638853475950000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:53:15Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "0758f3d5-6a16-488f-b71e-d4de60b4f065",
+    "description": "",
+    "eventDataId": "7e2ebec2-e0fb-4326-bb01-f024f99643d5",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:14.8705694Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/7e2ebec2-e0fb-4326-bb01-f024f99643d5/ticks/638853475948705694",
+    "level": "Informational",
+    "operationId": "0758f3d5-6a16-488f-b71e-d4de60b4f065",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d58d37c5-5afa-4da5-8952-bbb5902298d0",
+    "description": "",
+    "eventDataId": "63a9260a-4be7-4456-9aba-8628092b68f8",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:14.3974331Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/63a9260a-4be7-4456-9aba-8628092b68f8/ticks/638853475943974331",
+    "level": "Informational",
+    "operationId": "d58d37c5-5afa-4da5-8952-bbb5902298d0",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:55:00Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "31683342-007d-44c0-b86b-043e24377d30",
+    "description": "WebSite app691 has an operation Update and the status is Succeeded",
+    "eventDataId": "91bd2fb1-b8e4-d241-1eb9-64d8fa3f0468",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:53:14Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/91bd2fb1-b8e4-d241-1eb9-64d8fa3f0468/ticks/638853475940000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:53:14Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "31683342-007d-44c0-b86b-043e24377d30",
+    "description": "WebSite app691 has an operation Update and the status is Started",
+    "eventDataId": "71c2bafc-0102-c48a-f073-22c547a8ed4d",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:53:13Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/71c2bafc-0102-c48a-f073-22c547a8ed4d/ticks/638853475930000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:53:13Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "d58d37c5-5afa-4da5-8952-bbb5902298d0",
+    "description": "",
+    "eventDataId": "66268685-9780-42d1-be8f-26740df062a1",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:12.272286Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/66268685-9780-42d1-be8f-26740df062a1/ticks/638853475922722860",
+    "level": "Informational",
+    "operationId": "d58d37c5-5afa-4da5-8952-bbb5902298d0",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:00Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "67ed4f22-2582-4aaa-a09c-2fb7976d8d17",
+    "description": "",
+    "eventDataId": "7f7f58a2-b0ff-4672-a83f-b6a30953af43",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:11.9818984Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/7f7f58a2-b0ff-4672-a83f-b6a30953af43/ticks/638853475919818984",
+    "level": "Informational",
+    "operationId": "67ed4f22-2582-4aaa-a09c-2fb7976d8d17",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:55:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/publishxml/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYCgxmFS36eiXRd9zZ7DdWbFiAgA=",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749754359",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749750459",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749750459",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "8smHr3zUYEOLv_1wKMrYAQ",
+      "ver": "1.0",
+      "xms_ftd": "xzqKORdPP6p1DZ80dr_7y2c1mRd3RRmr40qieQFdzkcBamFwYW5lYXN0LWRzbXM",
+      "xms_idrel": "7 10",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "67ed4f22-2582-4aaa-a09c-2fb7976d8d17",
+    "description": "",
+    "eventDataId": "91c1bf64-6dbb-465e-bd7a-354d4e54111d",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:53:11.216207Z",
+    "httpRequest": {
+      "clientIpAddress": "40.65.56.179",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/publishxml?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/91c1bf64-6dbb-465e-bd7a-354d4e54111d/ticks/638853475912162070",
+    "level": "Informational",
+    "operationId": "67ed4f22-2582-4aaa-a09c-2fb7976d8d17",
+    "operationName": {
+      "localizedValue": "Get Web App Publishing Profile",
+      "value": "Microsoft.Web/sites/publishxml/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/publishxml/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:55:25Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYBDjKN93/WMJm8yMTo3ygslCAA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749753880",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749749980",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749749980",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "JM8rs12zAUehPeRVRuz3AQ",
+      "ver": "1.0",
+      "xms_ftd": "sKy86E2KNsujXdy5_itP1r-eLl1XH1VmlG1WQGQIGmoBYXNpYXNvdXRoZWFzdC1kc21z",
+      "xms_idrel": "7 20",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "96ae2a31-33bf-4d28-bb1a-45d6b85476db",
+    "description": "",
+    "eventDataId": "f09acb20-53cd-450c-af99-ddd93c118419",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:45:16.5092769Z",
+    "httpRequest": {
+      "clientIpAddress": "13.90.155.139",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/f09acb20-53cd-450c-af99-ddd93c118419/ticks/638853471165092769",
+    "level": "Informational",
+    "operationId": "96ae2a31-33bf-4d28-bb1a-45d6b85476db",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:47:03Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "fb56ec62-95aa-455e-8a38-7ee15e838f54",
+    "description": "WebSite app691 has an operation Restart and the status is Succeeded",
+    "eventDataId": "d05c675c-ef79-a3b7-4708-a99b913a93ce",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:45:16Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/d05c675c-ef79-a3b7-4708-a99b913a93ce/ticks/638853471160000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:45:16Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "fb56ec62-95aa-455e-8a38-7ee15e838f54",
+    "description": "WebSite app691 has an operation Restart and the status is Started",
+    "eventDataId": "cf9766f6-50c3-7af8-872f-67396f9f9a56",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:45:16Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/cf9766f6-50c3-7af8-872f-67396f9f9a56/ticks/638853471160000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "RestartWebSite",
+      "value": "RestartWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:45:16Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/restart/action",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYBDjKN93/WMJm8yMTo3ygslCAA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749753880",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749749980",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749749980",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "JM8rs12zAUehPeRVRuz3AQ",
+      "ver": "1.0",
+      "xms_ftd": "sKy86E2KNsujXdy5_itP1r-eLl1XH1VmlG1WQGQIGmoBYXNpYXNvdXRoZWFzdC1kc21z",
+      "xms_idrel": "7 20",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "96ae2a31-33bf-4d28-bb1a-45d6b85476db",
+    "description": "",
+    "eventDataId": "1f4b1941-81a4-43c9-b4a3-483174c6cf0b",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:45:15.9467854Z",
+    "httpRequest": {
+      "clientIpAddress": "13.90.155.139",
+      "clientRequestId": "",
+      "method": "POST",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/restart?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/events/1f4b1941-81a4-43c9-b4a3-483174c6cf0b/ticks/638853471159467854",
+    "level": "Informational",
+    "operationId": "96ae2a31-33bf-4d28-bb1a-45d6b85476db",
+    "operationName": {
+      "localizedValue": "Restart Web App",
+      "value": "Microsoft.Web/sites/restart/action"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/restart/action"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites",
+      "value": "Microsoft.Web/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:47:03Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYBDjKN93/WMJm8yMTo3ygslCAA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749753880",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749749980",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749749980",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "JM8rs12zAUehPeRVRuz3AQ",
+      "ver": "1.0",
+      "xms_ftd": "sKy86E2KNsujXdy5_itP1r-eLl1XH1VmlG1WQGQIGmoBYXNpYXNvdXRoZWFzdC1kc21z",
+      "xms_idrel": "7 20",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "0c3f5d56-6c0a-4d44-b57e-32b25a5384e5",
+    "description": "",
+    "eventDataId": "79299d46-9b03-4b7c-8f20-51d0f160b510",
+    "eventName": {
+      "localizedValue": "End request",
+      "value": "EndRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:45:15.5559553Z",
+    "httpRequest": {
+      "clientIpAddress": "13.90.155.139",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/79299d46-9b03-4b7c-8f20-51d0f160b510/ticks/638853471155559553",
+    "level": "Informational",
+    "operationId": "0c3f5d56-6c0a-4d44-b57e-32b25a5384e5",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write",
+      "statusCode": "OK"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "OK (HTTP Status Code: 200)",
+      "value": "OK"
+    },
+    "submissionTimestamp": "2025-06-12T17:46:44Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "4dc34850-933e-4149-b5a5-cecc7b03be2a",
+    "description": "WebSite app691 has an operation Update and the status is Succeeded",
+    "eventDataId": "b0cfba98-f866-4cee-f998-302eefe8192a",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:45:15Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/b0cfba98-f866-4cee-f998-302eefe8192a/ticks/638853471150000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Succeeded",
+      "value": "Succeeded"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:45:15Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "correlationId": "4dc34850-933e-4149-b5a5-cecc7b03be2a",
+    "description": "WebSite app691 has an operation Update and the status is Started",
+    "eventDataId": "d6ddd661-f95e-1ab9-d381-e29337648841",
+    "eventName": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "eventTimestamp": "2025-06-12T17:45:14Z",
+    "id": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691/events/d6ddd661-f95e-1ab9-d381-e29337648841/ticks/638853471140000000",
+    "level": "Informational",
+    "operationId": "",
+    "operationName": {
+      "localizedValue": "UpdateWebSite",
+      "value": "UpdateWebSite"
+    },
+    "properties": {
+      "Message": ""
+    },
+    "resourceGroup": "RG691",
+    "resourceGroupName": "RG691",
+    "resourceId": "/SUBSCRIPTIONS/0103F973-A048-46E1-B5BD-C351CB1D7693/RESOURCEGROUPS/RG691/PROVIDERS/MICROSOFT.WEB/SITES/APP691",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "MICROSOFT.WEB"
+    },
+    "resourceType": {
+      "localizedValue": "MICROSOFT.WEB/sites",
+      "value": "MICROSOFT.WEB/sites"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:45:14Z",
+    "subscriptionId": "0103F973-A048-46E1-B5BD-C351CB1D7693",
+    "tenantId": ""
+  },
+  {
+    "authorization": {
+      "action": "Microsoft.Web/sites/config/write",
+      "scope": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web"
+    },
+    "caller": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+    "category": {
+      "localizedValue": "Administrative",
+      "value": "Administrative"
+    },
+    "claims": {
+      "aio": "k2RgYBDjKN93/WMJm8yMTo3ygslCAA==",
+      "appid": "b5f8bd85-10d8-48d8-a591-62c436fc4fdd",
+      "appidacr": "1",
+      "aud": "https://management.core.windows.net/",
+      "exp": "1749753880",
+      "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "15917c2a-607b-4285-9bb8-4dba3e03133e",
+      "iat": "1749749980",
+      "idtyp": "app",
+      "iss": "https://sts.windows.net/e7c46463-2529-40d9-b0e5-4b8a4acd39dd/",
+      "nbf": "1749749980",
+      "rh": "1.AT0AY2TE5ykl2UCw5UuKSs053UZIf3kAutdPukPawfj2MBM9AAA9AA.",
+      "uti": "JM8rs12zAUehPeRVRuz3AQ",
+      "ver": "1.0",
+      "xms_ftd": "sKy86E2KNsujXdy5_itP1r-eLl1XH1VmlG1WQGQIGmoBYXNpYXNvdXRoZWFzdC1kc21z",
+      "xms_idrel": "7 20",
+      "xms_rd": "0.42LlYBJitBUS4WAXErCaZ97Q577No2_ROp3itwc3AkU5hQSMapiuiv5d6blI1WnZ3bxDlUBRDiEBN4_6SoZd1_13Od86-OObgbAUOweLELNzgCEA",
+      "xms_tcdt": "1357171765"
+    },
+    "correlationId": "0c3f5d56-6c0a-4d44-b57e-32b25a5384e5",
+    "description": "",
+    "eventDataId": "b32e56d1-7082-4bf3-981e-3e6c2a4b5b27",
+    "eventName": {
+      "localizedValue": "Begin request",
+      "value": "BeginRequest"
+    },
+    "eventTimestamp": "2025-06-12T17:45:11.461984Z",
+    "httpRequest": {
+      "clientIpAddress": "13.90.155.139",
+      "clientRequestId": "",
+      "method": "PATCH",
+      "uri": "https://management.azure.com/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web?api-version=2016-08-01"
+    },
+    "id": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web/events/b32e56d1-7082-4bf3-981e-3e6c2a4b5b27/ticks/638853471114619840",
+    "level": "Informational",
+    "operationId": "0c3f5d56-6c0a-4d44-b57e-32b25a5384e5",
+    "operationName": {
+      "localizedValue": "Update web sites config",
+      "value": "Microsoft.Web/sites/config/write"
+    },
+    "properties": {
+      "entity": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+      "eventCategory": "Administrative",
+      "hierarchy": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd/0103f973-a048-46e1-b5bd-c351cb1d7693",
+      "message": "Microsoft.Web/sites/config/write"
+    },
+    "resourceGroup": "rg691",
+    "resourceGroupName": "rg691",
+    "resourceId": "/subscriptions/0103f973-a048-46e1-b5bd-c351cb1d7693/resourceGroups/rg691/providers/Microsoft.Web/sites/app691/config/web",
+    "resourceProviderName": {
+      "localizedValue": "Azure Web Sites",
+      "value": "Microsoft.Web"
+    },
+    "resourceType": {
+      "localizedValue": "Microsoft.Web/sites/config",
+      "value": "Microsoft.Web/sites/config"
+    },
+    "status": {
+      "localizedValue": "Started",
+      "value": "Started"
+    },
+    "subStatus": {
+      "localizedValue": "",
+      "value": ""
+    },
+    "submissionTimestamp": "2025-06-12T17:46:44Z",
+    "subscriptionId": "0103f973-a048-46e1-b5bd-c351cb1d7693",
+    "tenantId": "e7c46463-2529-40d9-b0e5-4b8a4acd39dd"
+  }
+]
